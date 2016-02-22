@@ -1,0 +1,97 @@
+body {
+    background: url("../img/bg.jpg") no-repeat ;
+    background-size: cover;
+
+}
+
+.wrapper{
+    width: 1215px;
+    margin: 0 auto;
+    position: relative;
+    top:-36px;
+}
+
+
+.registration{
+    width: 560px;
+    height: 613px;
+    background-color: rgba(0,0,0,0.4);
+    margin: 212px auto;
+}
+.cadastre{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.creating form{
+    width: 276px;
+    height: 353px;
+    margin: 0 auto;
+    position: relative;
+}
+#fb{
+    position: absolute;
+    width: 276px;
+    top:0;
+    border-radius: 2px;
+}
+.ou {
+    position: relative;
+    text-align: center;
+}
+
+.ou:before,.ou:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    width: 123px;
+    height: 2px;
+    content: '';
+    background-image: url("../img/row.png");
+}
+
+.ou:before {
+left: 0;
+}
+
+.ou:after {
+right: 0;
+}
+
+.bottoms{
+    width: 258px;
+    height: 35px;
+    display: block;
+    margin: 15px 0;
+    background-color: black;
+    border: solid 1px black;
+    border-bottom: solid 1px #494847;
+    padding-left: 15px;
+}
+.bottoms:hover{
+    background-color: #1b5288;
+    border: solid 1px #689bcc;
+}
+
+.create{
+    height: 32px;
+    width: 150px;
+    margin: 15px 54px;
+    background-color: #4198d2;
+    border: solid 1px #4198d2;
+    border-radius: 2px;
+}
+#privacy{
+    display: inline-block;
+    width:310px;
+    position: absolute;
+    left: 450px;
+    bottom: 30px;
+}
+a,p, label,input, li{
+    color: white;
+}
+p{
+    text-align: center;
+}
